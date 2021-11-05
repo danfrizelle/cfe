@@ -1,0 +1,1075 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.RSPCA_040 #content {
+  display: none;
+}
+
+.RSPCA_040 #footer {
+  position: relative;
+}
+.RSPCA_040 #footer #cookie-bar {
+  width: 100%;
+  clear: both;
+}
+.RSPCA_040 #footer .mobileFooterCollapse {
+  display: none;
+}
+.RSPCA_040 #footer .mobileFooterCollapse.show {
+  display: inline-block;
+}
+.RSPCA_040 #footer .footerColumn .themeTxtSm {
+  text-align: left;
+}
+.RSPCA_040 #footer .copyright-message {
+  width: 100% !important;
+}
+.RSPCA_040 #footer .footerColumn .themeTotalNum {
+  margin-bottom: 10px;
+}
+
+.RSPCA_040 .fe-donate-banner {
+  position: fixed;
+  top: -152px;
+  transition: top 0.3s;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.28);
+  background: #fff;
+}
+.RSPCA_040 .fe-donate-banner__inner {
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
+  padding: 0;
+  display: -ms-flexbox;
+  display: flex;
+  height: 95px;
+  position: relative;
+}
+.RSPCA_040 .fe-donate-banner__message {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #183768;
+  font-size: 27px;
+  font-family: openSansBold, Arial;
+  z-index: 1;
+}
+.RSPCA_040 .fe-donate-banner__button {
+  color: #000;
+  font-size: 16px;
+  font-family: openSansBold, Arial;
+  padding: 17px 64px;
+  border-radius: 4px;
+  z-index: 1;
+  background: #f39232;
+}
+.RSPCA_040 .fe-donate-banner__button:hover {
+  text-decoration: none;
+}
+.RSPCA_040 .fe-donate-banner__button-container {
+  background: #fff;
+  padding-left: 23px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 .fe-donate-banner__inner {
+    height: 75px;
+  }
+  .RSPCA_040 .fe-donate-banner__message {
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+  .RSPCA_040 .fe-donate-banner__button {
+    padding: 10px 13px;
+  }
+  .RSPCA_040 .fe-donate-banner__button-container {
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    padding-left: 0;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 503px) {
+  .RSPCA_040 .fe-donate-banner__message {
+    max-width: 230px;
+  }
+}
+@media (max-width: 400px) {
+  .RSPCA_040 .fe-donate-banner__message {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 205px;
+  }
+}
+
+.RSPCA_040 #header .divider-indent {
+  height: 160px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding-top: 15px;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #header .divider-indent {
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 570px;
+  }
+}
+.RSPCA_040 #header .divider-indent .floating-logo {
+  position: relative;
+  margin-left: 0;
+  top: 0;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #header .divider-indent .floating-logo img {
+    max-width: 80px;
+  }
+}
+.RSPCA_040 #header .divider-indent h1 {
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #header .divider-indent h1 {
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 380px;
+  }
+}
+
+.RSPCA_040 #wrapper {
+  padding-bottom: 0;
+}
+.RSPCA_040 #wrapper .fe-donations {
+  background: #f5f5f5;
+}
+.RSPCA_040 #wrapper .fe-donations__card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  max-width: 990px;
+  margin: 0 auto;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.28);
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__card {
+    border-radius: 0;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 575px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__card-outer {
+  background: #fff;
+  padding-bottom: 64px;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__card-outer {
+    padding-bottom: 0;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__card-left {
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-size: cover;
+  position: relative;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__card-left {
+    width: 100%;
+    height: 300px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__card-left img {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.RSPCA_040 #wrapper .fe-donations__card-left.other img.other {
+  display: block;
+}
+.RSPCA_040 #wrapper .fe-donations__card-left.hundred img.hundred {
+  display: block;
+}
+.RSPCA_040 #wrapper .fe-donations__card-left.fifty img.fifty {
+  display: block;
+}
+.RSPCA_040 #wrapper .fe-donations__card-left.twenty img.twenty {
+  display: block;
+}
+.RSPCA_040 #wrapper .fe-donations__card-left.ten img.ten {
+  display: block;
+}
+.RSPCA_040 #wrapper .fe-donations__card-left.five img.five {
+  display: block;
+}
+.RSPCA_040 #wrapper .fe-donations__card-left.two img.two {
+  display: block;
+}
+.RSPCA_040 #wrapper .fe-donations__card-left-message-container {
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(2, 2, 2, 0.9) 70%
+  );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.RSPCA_040 #wrapper .fe-donations__card-left-message {
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+  font-family: openSansBold, Arial;
+  text-align: center;
+  padding: 0 48px;
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  -ms-transform: translate(-50%, -30%);
+  transform: translate(-50%, -30%);
+}
+.RSPCA_040 #wrapper .fe-donations__card-left-message.fe-other {
+  padding: 0 28px;
+}
+.RSPCA_040 #wrapper .fe-donations__card-left-message span {
+  font-size: 28px;
+}
+.RSPCA_040 #wrapper .fe-donations__card-right {
+  width: 50%;
+  padding: 32px;
+  overflow: hidden;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__card-right {
+    width: 100%;
+    padding: 22px 18px 32px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__card-right .fe-error-message {
+  color: #f00;
+  padding-bottom: 17px;
+  font-family: openSansBold, Arial;
+  width: 100%;
+  display: none;
+}
+.RSPCA_040 #wrapper .fe-donations__card-right .fe-error-message.fe-active {
+  display: inline-block;
+}
+.RSPCA_040 #wrapper .fe-donations__card-right h2 {
+  font-size: 27px;
+  line-height: 36px;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 19px;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__card-right h2 {
+    display: none;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__card-right-one-off,
+.RSPCA_040 #wrapper .fe-donations__card-right-monthly {
+  display: none;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.RSPCA_040 #wrapper .fe-donations__card-right-one-off.fe-active,
+.RSPCA_040 #wrapper .fe-donations__card-right-monthly.fe-active {
+  display: -ms-flexbox;
+  display: flex;
+}
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right-one-off
+  .fe-donations__card-right-buttons
+  button,
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right-monthly
+  .fe-donations__card-right-buttons
+  button {
+  margin-right: 16px;
+}
+.RSPCA_040 #wrapper .fe-donations__card-right button {
+  margin-right: 19px;
+  background: #f5f5f5;
+  color: #000;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: openSansBold, Arial;
+  border: none;
+  padding: 17px 24px;
+  border-radius: 4px;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: 20px;
+  min-height: 57px;
+  min-width: 87px;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__card-right button {
+    padding: 17px 24px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__card-right button:last-of-type {
+  margin-right: 0;
+}
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right
+  button
+  .fe-donations__card-button-info {
+  display: block;
+  font-family: openSans, Arial;
+  font-size: 12px;
+  color: #a5a5a5;
+}
+.RSPCA_040 #wrapper .fe-donations__card-right button.fe-active {
+  background: #043668;
+  border: 1px solid #043668;
+  color: #fff;
+}
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right
+  button.fe-active
+  .fe-donations__card-button-info {
+  color: #fff;
+}
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right
+  button.fe-donations__card-freq-button.fe-active {
+  position: relative;
+}
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right
+  button.fe-donations__card-freq-button.fe-active:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top: solid 10px #043668;
+  border-left: solid 6px transparent;
+  border-right: solid 6px transparent;
+}
+.RSPCA_040 #wrapper .fe-donations__card-right .fe-donations__card-donate-main {
+  width: 100%;
+  background: #f39232;
+  border: 1px solid #f39232;
+  margin-bottom: 0;
+}
+.RSPCA_040 #wrapper .fe-donations__card-right-buttons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+}
+@media (max-width: 470px) {
+  .RSPCA_040 #wrapper .fe-donations__card-right-buttons {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__card-right-buttons .fe-input-group {
+  margin-left: 16px;
+  display: -ms-flexbox;
+  display: flex;
+  height: 57px;
+  background: #f5f5f5;
+  position: relative;
+  /* Hide arrow input number fied Chrome, Safari, Edge, Opera */
+  /* Hide arrow input number fied Firefox */
+}
+.RSPCA_040 #wrapper .fe-donations__card-right-buttons .fe-input-group input {
+  padding-left: 42px !important;
+  max-width: 100% !important;
+  border-radius: 4px;
+  border: none !important;
+  background: #f5f5f5;
+  overflow: hidden;
+  width: 100%;
+}
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right-buttons
+  .fe-input-group
+  input:focus {
+  width: 100%;
+  max-width: inherit;
+  border: 1px solid #043668 !important;
+  border-radius: 4px;
+  box-shadow: #043668 0px 0px 0px 3.2px;
+}
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right-buttons
+  .fe-input-group
+  .fe-donations__card-right-monthly-input::-webkit-outer-spin-button,
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right-buttons
+  .fe-input-group
+  .fe-donations__card-right-monthly-input::-webkit-inner-spin-button,
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right-buttons
+  .fe-input-group
+  .fe-donations__card-right-oneoff-input::-webkit-outer-spin-button,
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right-buttons
+  .fe-input-group
+  .fe-donations__card-right-oneoff-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right-buttons
+  .fe-input-group
+  .fe-donations__card-right-monthly-input[type="number"],
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right-buttons
+  .fe-input-group
+  .fe-donations__card-right-oneoff-input[type="number"] {
+  -moz-appearance: textfield;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__card-right-buttons .fe-input-group {
+    width: 25%;
+  }
+}
+@media (max-width: 470px) {
+  .RSPCA_040 #wrapper .fe-donations__card-right-buttons .fe-input-group {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 24px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__card-right-buttons .fe-input-group-addon {
+  font-size: 16px;
+  font-family: openSansBold, Arial;
+  color: #393939;
+  position: absolute;
+  top: 18px;
+  left: 30px;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__card-right-buttons .fe-input-group-addon {
+    padding-left: 10px;
+    padding-right: 5px;
+    left: 20px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__card-right-buttons .fe-input-group input {
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  max-width: 71px;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__card-right-buttons .fe-input-group input {
+    max-width: calc(100% - 24px);
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__card-right-buttons .fe-input-group--wide {
+  margin-left: 0;
+  margin-bottom: 24px;
+  width: 100%;
+}
+.RSPCA_040
+  #wrapper
+  .fe-donations__card-right-buttons
+  .fe-input-group--wide
+  input {
+  max-width: 100%;
+  width: 100%;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040
+    #wrapper
+    .fe-donations__card-right-buttons
+    .fe-input-group--wide
+    input {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__card-right-smallprint {
+  font-size: 13px;
+  line-height: 18px;
+  color: #393939;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: -8px;
+}
+.RSPCA_040 #wrapper .fe-donations__quote {
+  text-align: center;
+  padding-bottom: 70px;
+  font-size: 27px;
+  line-height: 36px;
+  background: #fff;
+}
+.RSPCA_040 #wrapper .fe-donations__quote strong {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 36px;
+  font-family: openSansBold, Arial;
+}
+@media (max-width: 500px) {
+  .RSPCA_040 #wrapper .fe-donations__quote span {
+    max-width: 240px;
+    display: inline-block;
+  }
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__quote {
+    font-size: 20px;
+    line-height: 29px;
+    padding: 32px 20px 37px;
+  }
+  .RSPCA_040 #wrapper .fe-donations__quote strong {
+    font-size: 20px;
+    line-height: 29px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__stats {
+  background: #043668;
+  margin-bottom: 97px;
+  padding: 130px 0;
+  color: #fff;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__stats {
+    padding: 48px 0;
+    margin-bottom: 48px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__stats-inner {
+  max-width: 990px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 0 auto;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__stats-inner {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__stats-inner div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  font-family: openSans, Arial;
+  max-width: 250px;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__stats-inner div {
+    max-width: 315px;
+    margin: 0 auto 32px auto;
+    padding: 0 40px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .RSPCA_040 #wrapper .fe-donations__stats-inner div:last-of-type {
+    margin-bottom: 0;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__stats-inner div span {
+  font-size: 62px;
+  line-height: 62px;
+  font-family: openSansBold, Arial;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+.RSPCA_040 #wrapper .fe-donations .tns-outer {
+  margin: 0 auto;
+  max-width: 990px;
+  position: relative;
+}
+@media (max-width: 1006px) and (min-width: 769px) {
+  .RSPCA_040 #wrapper .fe-donations .tns-outer {
+    padding: 0 18px !important;
+  }
+}
+@media (max-width: 768px) {
+  .RSPCA_040 #wrapper .fe-donations .tns-outer {
+    margin: 0 18px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__slider {
+  margin-bottom: 83px;
+}
+.RSPCA_040 #wrapper .fe-donations__slider-slide-inner {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  border-radius: 8px;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .RSPCA_040 #wrapper .fe-donations__slider-slide-inner {
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__slider-slide-content {
+  width: 50%;
+  padding: 26px;
+  background: #fff;
+}
+@media (max-width: 768px) {
+  .RSPCA_040 #wrapper .fe-donations__slider-slide-content {
+    width: 100%;
+    padding: 20px 12px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__slider-slide-content h2 {
+  font-size: 27px;
+  line-height: 36px;
+  padding: 0 0 28px 0;
+}
+@media (max-width: 768px) {
+  .RSPCA_040 #wrapper .fe-donations__slider-slide-content h2 {
+    font-size: 20px;
+    line-height: 29px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__slider-slide-content p:last-child {
+  padding-bottom: 0;
+}
+.RSPCA_040 #wrapper .fe-donations__slider-slide-image {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .RSPCA_040 #wrapper .fe-donations__slider-slide-image {
+    width: 100%;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__slider-slide-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.RSPCA_040 #wrapper .fe-donations__accordion-container {
+  max-width: 656px;
+  margin: 0 auto;
+  padding-bottom: 115px;
+}
+@media (max-width: 710px) {
+  .RSPCA_040 #wrapper .fe-donations__accordion-container {
+    margin: 0 18px;
+    padding-bottom: 63px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__accordion article {
+  border-top: 1px solid #707070;
+}
+.RSPCA_040 #wrapper .fe-donations__accordion article.fe-border-bottom {
+  border-bottom: 1px solid #707070;
+}
+.RSPCA_040 #wrapper .fe-donations__accordion-button {
+  width: 100%;
+  border: none;
+  text-align: left;
+  padding: 25px 0;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  color: #000;
+  background: #f5f5f5;
+}
+.RSPCA_040 #wrapper .fe-donations__accordion-button h3 {
+  margin: 0;
+  cursor: pointer;
+  padding: 0 42px 0 0;
+  pointer-events: none;
+  font-size: 27px;
+  line-height: 32px;
+  color: #000;
+  font-family: openSansRegular;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__accordion-button h3 {
+    font-size: 20px;
+    line-height: 29px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__accordion-button:after {
+  content: "";
+  width: 16px;
+  height: 10px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M24 0v24H0V0z' fill='none'/%3E%3Cpath d='M18 10l-1.41-1.41L12 13.17 7.41 8.59 6 10l6 6z' fill='%23000'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  transition: all 0.2s ease-in-out;
+  right: 24px;
+  top: calc(50% - 5px);
+  position: absolute;
+  background-position: center;
+}
+.RSPCA_040 #wrapper .fe-donations__accordion-button--open:after {
+  -ms-transform: rotate(180deg) !important;
+  transform: rotate(180deg) !important;
+}
+.RSPCA_040 #wrapper .fe-donations__accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+.RSPCA_040 #wrapper .fe-donations__accordion-content p {
+  padding-bottom: 25px;
+}
+.RSPCA_040 #wrapper .fe-donations__other-ways {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 656px;
+  margin: 0 auto;
+  padding-bottom: 72px;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__other-ways {
+    padding: 0 18px 72px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__other-ways h2 {
+  font-size: 27px;
+  line-height: 36px;
+  color: #000;
+  padding-bottom: 38px;
+  text-align: center;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__other-ways h2 {
+    font-size: 20px;
+    line-height: 29px;
+    padding-bottom: 32px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__other-ways-image {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+.RSPCA_040 #wrapper .fe-donations__other-ways-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.RSPCA_040 #wrapper .fe-donations__other-ways p {
+  padding-bottom: 32px;
+  text-align: center;
+}
+.RSPCA_040 #wrapper .fe-donations__other-ways-button {
+  background: #043668;
+  color: #fff;
+  font-size: 16px;
+  font-family: openSansBold, Arial;
+  border: 1px solid #043668;
+  padding: 17px 87px;
+  border-radius: 4px;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__other-ways-button {
+    width: 100%;
+    max-width: 338px;
+    padding: 17px 24px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__smallprint {
+  margin: 0 auto;
+  max-width: 990px;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__smallprint {
+    padding: 0 18px;
+  }
+}
+.RSPCA_040 #wrapper .fe-donations__smallprint p {
+  font-size: 10px;
+  line-height: 16px;
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__smallprint p {
+    font-size: 9px;
+    line-height: 14px;
+  }
+}
+@media (max-width: 1006px) {
+  .RSPCA_040 #wrapper .fe-donations__smallprint p span {
+    position: absolute;
+    margin-left: -7px;
+  }
+}
+
+.RSPCA_040 .fe-equal-height-block {
+  height: 68px !important;
+}
+.RSPCA_040 .fe-equal-height-block .fe-input-group-addon {
+  top: 23px !important;
+}
+
+.RSPCA_040 .tns-outer {
+  padding: 0 !important;
+}
+
+.RSPCA_040 .tns-outer [hidden] {
+  display: none !important;
+}
+
+.RSPCA_040 .tns-outer [aria-controls],
+.RSPCA_040 .tns-outer [data-action] {
+  cursor: pointer;
+}
+
+.RSPCA_040 .tns-slider {
+  transition: all 0s;
+}
+
+.RSPCA_040 .tns-slider > .tns-item {
+  box-sizing: border-box;
+}
+
+.RSPCA_040 .tns-horizontal.tns-subpixel {
+  white-space: nowrap;
+}
+
+.RSPCA_040 .tns-horizontal.tns-subpixel > .tns-item {
+  display: inline-block;
+  vertical-align: bottom;
+  white-space: normal;
+}
+
+.RSPCA_040 .tns-horizontal.tns-no-subpixel:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.RSPCA_040 .tns-horizontal.tns-no-subpixel > .tns-item {
+  float: left;
+}
+
+.RSPCA_040 .tns-horizontal.tns-carousel.tns-no-subpixel > .tns-item {
+  margin-right: -100%;
+}
+
+.RSPCA_040 .tns-no-calc {
+  position: relative;
+  left: 0;
+}
+
+.RSPCA_040 .tns-gallery {
+  position: relative;
+  left: 0;
+  min-height: 1px;
+}
+
+.RSPCA_040 .tns-gallery > .tns-item {
+  position: absolute;
+  left: -100%;
+  transition: transform 0s, opacity 0s;
+}
+
+.RSPCA_040 .tns-gallery > .tns-slide-active {
+  position: relative;
+  left: auto !important;
+}
+
+.RSPCA_040 .tns-gallery > .tns-moving {
+  transition: all 0.25s;
+}
+
+.RSPCA_040 .tns-autowidth {
+  display: inline-block;
+}
+
+.RSPCA_040 .tns-lazy-img {
+  transition: opacity 0.6s;
+  opacity: 0.6;
+}
+
+.RSPCA_040 .tns-lazy-img.tns-complete {
+  opacity: 1;
+}
+
+.RSPCA_040 .tns-ah {
+  transition: height 0s;
+}
+
+.RSPCA_040 .tns-ovh {
+  overflow: hidden;
+}
+
+.RSPCA_040 .tns-visually-hidden {
+  position: absolute;
+  left: -10000em;
+}
+
+.RSPCA_040 .tns-transparent {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.RSPCA_040 .tns-fadeIn {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  z-index: 0;
+}
+
+.RSPCA_040 .tns-normal,
+.RSPCA_040 .tns-fadeOut {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: -1;
+}
+
+.RSPCA_040 .tns-vpfix {
+  white-space: nowrap;
+}
+
+.RSPCA_040 .tns-vpfix > div,
+.RSPCA_040 .tns-vpfix > li {
+  display: inline-block;
+}
+
+.RSPCA_040 .tns-t-subp2 {
+  margin: 0 auto;
+  width: 310px;
+  position: relative;
+  height: 10px;
+  overflow: hidden;
+}
+
+.RSPCA_040 .tns-t-ct {
+  width: 2333.3333333%;
+  width: calc(100% * 70 / 3);
+  position: absolute;
+  right: 0;
+}
+
+.RSPCA_040 .tns-t-ct:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.RSPCA_040 .tns-t-ct > div {
+  width: 1.4285714%;
+  width: calc(100% / 70);
+  height: 10px;
+  float: left;
+}
+
+@media (max-width: 768px) {
+  .RSPCA_040 .tns-horizontal.tns-subpixel > .tns-item {
+    vertical-align: top;
+  }
+}
+
+.RSPCA_040 .tns-outer .tns-controls {
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  bottom: 83px;
+}
+@media (max-width: 768px) {
+  .RSPCA_040 .tns-outer .tns-controls {
+    left: 0;
+  }
+}
+
+.RSPCA_040 .tns-outer [disabled] {
+  pointer-events: none;
+}
+.RSPCA_040 .tns-outer [disabled] svg {
+  opacity: 0.2;
+}
+
+.RSPCA_040 .tns-outer [aria-controls] {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 10px 7px;
+  background: #f39232;
+  border: none;
+}
+.RSPCA_040 .tns-outer [aria-controls] svg {
+  width: 20px;
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.RSPCA_040 .tns-outer [aria-controls]:last-of-type svg {
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
