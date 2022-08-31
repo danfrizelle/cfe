@@ -154,10 +154,10 @@
             referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
         };
 
-        // Overlay
-        var overlay = document.createElement('div');
-        overlay.className = 'overlay';
-        body.appendChild(overlay);
+        // navOverlay
+        var navOverlay = document.createElement('div');
+        navOverlay.className = 'nav-overlay';
+        body.appendChild(navOverlay);
 
         // Insert new nav
         var headerItem = document.querySelector('#banner');
@@ -220,8 +220,8 @@
                     activeSubParentEl.classList.add(activeClass);
                     activeSubParentTopEl.classList.add(activeClass);
 
-                    // Overlay
-                    overlay.classList.add(activeClass);
+                    // navOverlay
+                    navOverlay.classList.add(activeClass);
                     clearTimeout(navHoverLevelZeroTimer);
                 }, navHoverDelay);
             }
@@ -305,7 +305,7 @@
                 });
             }
             navEl.classList.remove(activeClass);
-            overlay.classList.remove(activeClass);
+            navOverlay.classList.remove(activeClass);
         }
     };
 
